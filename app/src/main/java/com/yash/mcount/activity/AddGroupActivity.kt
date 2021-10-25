@@ -1,17 +1,12 @@
-package com.yash.mcount
+package com.yash.mcount.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.yash.mcount.R
 
-class MainActivity : AppCompatActivity() {
-
-
+class AddGroupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-
-
+        setContentView(R.layout.activity_add_group)
     }
 }
